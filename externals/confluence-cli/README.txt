@@ -3,7 +3,8 @@ Command line interface client for Confluence
 This is a command line interface (CLI) for remotely accessing Confluence.
 This is a working command line client that can be used directly with your installation.
 It uses Confluence's SOAP remote API. It also serves as an example for writing a
-Java SOAP client for Confluence.
+Java SOAP client for Confluence. This is part of a family of CLI clients supporting
+Atlassian products. Also available as part of the Atlassian CLI distribution.
 
 Installation
 - Unzip the distribution package and put the enclosed directory in a convenient location
@@ -13,9 +14,9 @@ Installation
   -- Setting should be YES
 
 Java Requirements
-- Requires a JRE version 1.5 or higher on the client
+- Requires a JRE version 1.6 or higher on the client
 - Run java -version from a command line
-  - ensure it shows 1.5 or higher
+  - ensure it shows 1.6 or higher
 
 
 Usage
